@@ -1,0 +1,24 @@
+@startuml NoShape
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+
+
+System(system, "Sistema Newscloud"){
+}
+
+
+
+Boundary(boundary, "Nome", "Container ou Software System") {
+
+Container(user1, "Coleta 1", "Acessa HTML dos jornais e coleta links e metadados para inserir no Banco de Dados no formato de Json.")
+Container(spa, "Coleta 2", "Atualização", "Acessa link e metadados do Banco de Dados. Acessa HTML pelo link e coleta dados (corpo do texto) de cada notícia. Atualizando o Banco de Dados")
+Container(api, "Gerador de HTML", "", "Lida com todas as lógicas de negócios.")
+}
+Container(db, "Banco de Dados", "Microsoft SQL", "Armazena todos os elementos: hiperlinks, metadados e dados de texto de forma organizada.")
+
+Rel(user1, spa, " Etapa 1")
+Rel(spa, api, " Etapa 2", "https")
+Rel_R(api, db, "Lê e escreve")
+Rel(system, boundary "")
+
+
+@enduml

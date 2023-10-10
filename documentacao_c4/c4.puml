@@ -1,0 +1,17 @@
+@startuml C4_Elements
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+
+
+System(systemAlias, "Sistema NewsCloud ", "Acessa dados de jornais por HTML, trata os dados, converte em json e armazena no banco de dados")
+
+Boundary(boundary, "Nome", "Container ou Software System") {
+    
+    Container(Container, "Coleta de Dados", "Coleta de Link e de alguns Metadados")
+
+    Container(containerAlias, "Tratamento de dados","Trata os dados coletados em Python")
+
+    Rel(systemAlias, Container, "")
+    Rel(systemAlias, containerAlias, "")
+}
+
+@enduml
