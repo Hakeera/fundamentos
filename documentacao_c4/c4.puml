@@ -1,17 +1,20 @@
-@startuml C4_Elements
+@startuml Template
+
 !include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+!theme C4_united from https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/themes
 
+title Template
 
-System(systemAlias, "Sistema NewsCloud ", "Acessa dados de jornais por HTML, trata os dados, converte em json e armazena no banco de dados")
+System(system, "Sistema", "Descrição do sistema")
 
 Boundary(boundary, "Nome", "Container ou Software System") {
     
-    Container(Container, "Coleta de Dados", "Coleta de Link e de alguns Metadados")
+    Container(Container1, "Coleta de Dados", "Coleta de Link e de alguns Metadados")
 
-    Container(containerAlias, "Tratamento de dados","Trata os dados coletados em Python")
+    Container(Container2, "Tratamento de dados","Trata os dados coletados em Python")
 
-    Rel(systemAlias, Container, "")
-    Rel(systemAlias, containerAlias, "")
+    Rel(system, Container1, "")
+    Rel(system, Container2, "")
 }
 
 @enduml

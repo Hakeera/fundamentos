@@ -1,0 +1,44 @@
+@startuml projeto NewsCloud
+'''Incluindo modelos
+
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+!define Boundary https://raw.githubusercontent.com/RicardoNiepel/C4-PlantUML/master/C4_Container.puml
+
+!include Boundary
+
+
+
+
+System(nc, "Sistema Newscloud")
+
+
+Container(coleta1, "Coleta 1", "Acessa HTML dos jornais e coleta links e metadados para inserir no Banco de Dados no formato de Json.")
+Container(coleta2, "Coleta 2", "Atualização", "Acessa link e metadados do Banco de Dados. Acessa HTML pelo link e coleta dados (corpo do texto) de cada notícia. Atualizando o Banco de Dados")
+Container(html, "Gerador de HTML", "")
+Container(db, "Banco de Dados", "SQL", "Armazena todos os elementos: hiperlinks, metadados e dados de texto de forma organizada.")
+
+Boundary(pasta, "Pasta Geral") {
+    Boundary(dados, "Dados") {
+        
+        Boundary(dados1, "2022") {
+        }
+            Boundary(dados2, "2023") {
+                rectangle bdpdf as "PDF"
+                rectangle bdhtml as "HTML"
+        }    
+    }
+    Boundary(json, "Json") {
+    }
+}
+
+
+Rel(nc, coleta1, "Acesso")
+Rel(coleta1, coleta2, " Etapa 1")
+Rel(coleta2, html, " Etapa 2", "")
+Rel_R(coleta2, db, "Armazena corpo do texto", "Atualização")
+Rel_L(db, coleta2, "Link da notícia")
+Rel(coleta1, db, "Metadados e Hyperlinks", "Json")
+Rel(db, html,  "Dados da notícia")
+Rel(html, pasta, "Armazena HTML" )
+
+@enduml
