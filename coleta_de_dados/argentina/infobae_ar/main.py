@@ -41,43 +41,8 @@ def extrair_infos(url):
 
     return links_list, titulo_list, subtitulo_list  # Retorna as listas
 
+
 # O looop está pegando links do footer que também possuem a tag <a>, achei que isso não ocorreria já que a div selecionada tem como parâmetro a class_= 'feed-list-wrapper'. Quando tentei link = div.find_next para atribuir o novo link apenas de acordo com a div deu erro.
-
-
-
-# Tentativa 2:
-
-    #x = div.find('div', attrs = {'class':'feed-list-wrapper'})
-    '''
-    while True:
-        x = div.find('div', class_="feed-list-wrapper")
-        link = x.find('a')
-        link_url = 'https://www.infobae.com' + link['href']
-        print(link_url)
-        link = link.find_next('a')
-        
-        if link == None:
-            break
-        
-    '''
-#-----------------------------------------------------------------------------------
-    
-# Outras atribuições que devem estar dentro do looping while.
-
-'''
-    # Extrai o título 
-   
-    titulo = link.find('h2', class_="feed-list-card-headline-lean feed-list-card-headline-lean-first")
-    
-    # Extrai o subtitulo
-    subtitulo = link.find('div', class_='deck deck-first')
-    
-    print("Título:", titulo)
-    print("Subtítulo:", subtitulo)
-    print("Link:", link_url)
-    print("-----------------")
-'''
-    
     
 # De início pensei em criar o laço while dentro de main para ficar repetindo a função extrair_infos que, inicialmente, deveria pegar as informações de uma notícia, depois, ao final, atribuir um novo valor a variável que seria usada para adiquirir as próximas extrações quando a função fosse chamada novamente em main. Algo nesse formato:
 '''
@@ -98,6 +63,6 @@ def main():
     extrair_infos(url)
     
     print("Links:\n", links_list, "\n \nTítulos:\n", titulo_list, "\n \nSubtitulos:\n", subtitulo_list)
-
+    
 if __name__ == "__main__": 
     main()
