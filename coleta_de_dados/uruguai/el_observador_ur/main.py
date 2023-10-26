@@ -1,0 +1,1 @@
+# Esse site não contém sessão de últimas notícias
