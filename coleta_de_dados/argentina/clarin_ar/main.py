@@ -1,7 +1,11 @@
 # Importar bibliotecas
-from bs4 import BeautifulSoup
 import pandas as pd
+from selenium import webdriver
+from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.common.by import By
+from bs4 import BeautifulSoup
 import requests
+import pandas as pd
 
 
 # Criando listas vazias para armazenar os dados
@@ -11,6 +15,10 @@ titulos_list = []
 
 ## Funções ##
 
+def next_page:
+    botao = driver.find_element(By.CLASS_NAME, 'next')
+    botao.click()
+    
 def acessar_pagina(url):
     page = requests.get(url)
     soup = BeautifulSoup(page.text, 'html.parser')
@@ -37,8 +45,10 @@ def main():
     url = 'https://www.clarin.com/ultimo-momento'
 
     extrair_infos(url)
+    
     print("Links: \n", links_list, "\n \n Titulos: \n", titulos_list)
-   
+    
+    next_page
 
 if __name__ == "__main__":
     main()

@@ -2,6 +2,7 @@
 from bs4 import BeautifulSoup
 import requests
 
+
 ## Funções ##
 
 # Criando listas vazias para armazenar os dados
@@ -32,12 +33,14 @@ def extrair_infos(url):
         titulo_element = noticia.h2
         titulo = titulo_element.text.strip()
         titulos_list.append(titulo)
+        
 
 def main():
     url = 'https://www.lanacion.com.ar/ultimas-noticias'
 
     extrair_infos(url)
     print("Links: \n", links_list, "\n \n Titulos: ", titulos_list)
+    
    
 
 if __name__ == "__main__":
