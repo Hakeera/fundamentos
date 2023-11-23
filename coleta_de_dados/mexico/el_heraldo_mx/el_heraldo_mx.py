@@ -5,13 +5,14 @@ from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 import time
+from urllib.parse import urlparse
 
 # Criando listas vazias para armazenar os dados
 
 links_list = []
 titulos_list = []
 subtitulos_list = []
-
+data_list = []
 
 ## Funções ##
 
@@ -38,14 +39,17 @@ def extrair_infos(url):
         subtitulo = artigo.find('p').text
         subtitulo_tratado = subtitulo.encode('latin-1').decode('utf-8')
         subtitulos_list.append(subtitulo_tratado)
-
+        data_s = link.split('/')
+        data = data_s[4:7]
+        data_list.append(data)
 
 def main():
 
     url = 'https://heraldodemexico.com.mx/mundo/'
     extrair_infos(url)
-    print(titulos_list, links_list, subtitulos_list)
-   
+    print("Títulos:\n", titulos_list, "Links:\n", links_list, "Subtitulos:\n", subtitulos_list, "Datas:\n", data_list)
+    print(data_list)
+    
 
 if __name__ == "__main__":
     main()

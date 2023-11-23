@@ -28,11 +28,10 @@ def extrair_infos(url):
         for li in lis:
 
             link = li.a['href'].strip()
-            links_list.append(f'https://www.clarin.com/ultimo-momentof{link}')
+            links_list.append(f'https://www.clarin.com/ultimo-momento{link}')
 
             titulo = li.h2.text
             titulos_list.append(titulo)
-            print(titulo)
 
 
 def main():
@@ -49,7 +48,7 @@ def main():
         extrair_infos(url)
 
         i = i + 1
-        # print("Links: \n", links_list, "\n \n Titulos: \n", titulos_list)
+        print("Links: \n", links_list, "\n \n Titulos: \n", titulos_list)
 
 
 if __name__ == "__main__":

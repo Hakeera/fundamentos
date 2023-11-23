@@ -11,7 +11,9 @@ categorias_list = []
 data_list = []
 subtitulo_list = []
 
+
 ## Funções ##
+
 
 def acessar_pagina(url):
     page = requests.get(url)
@@ -60,11 +62,7 @@ def main():
 
     extrair_infos(url)
 
-    print("Links: \n", links_list)
-    print("Titulos: \n", titulos_list)
-    print("Categoria: \n", categorias_list)
-    print("Data: \n", data_list)
-    print("Subtitulo: \n", subtitulo_list)
+    print("Links: \n", links_list, "Titulos: \n", titulos_list,"Categoria: \n", categorias_list,"Data: \n", data_list,"Subtitulo: \n", subtitulo_list )
 
 if __name__ == "__main__":
     main()
