@@ -62,7 +62,7 @@ def main():
             except:
                 break
             i = i + 1   
-    #print("Titulos:\n", titulos_list, "Links:\n", links_list, "Datas:\n", datas_list)
+    print("Titulos:\n", titulos_list, "\nLinks:\n", links_list, "\nDatas:\n", datas_list)
 
 
 if __name__ == "__main__":

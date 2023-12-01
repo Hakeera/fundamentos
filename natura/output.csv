@@ -1,49 +1,146 @@
-Nomes,Categoria,Preços
-Kaiak Feminino Desodorante Colônia,Kaiak,"R$ 155,90"
-Conjunto Sabonetes em Barra Tododia,Tododia,"R$ 115,60"
-Protetor Clareador FPS 70 Chronos,Chronos,"R$ 104,90"
-Ekos Frescor Moça Desodorante Colônia,Ekos,"R$ 103,90"
-Una Blush Deo Parfum,Una,"R$ 269,00"
-Essencial Ato Deo Parfum Masculino ,Essencial,"R$ 239,00"
-Essencial Único Deo Parfum Masculino,Essencial,"R$ 288,00"
-Una Deo Parfum,Una,"R$ 269,00"
-Essencial Deo Parfum Masculino,Essencial,"R$ 239,00"
-Natura Homem Cor.agio Deo Parfum,Natura Homem,"R$ 248,00"
-Ilía Secreto Deo Parfum,Ilía,"R$ 159,90"
-Sabonete em Barra Puro Vegetal Tododia Algodão,Tododia,"R$ 28,90"
-Essencial Supreme Feminino Deo Parfum,Essencial,"R$ 239,00"
-Kaiak Desodorante Colônia Feminino Miniatura,Kaiak,"R$ 53,90"
-Presente Natura Essencial Masculino,Essencial,"R$ 354,70"
-Paz e Humor Desodorante Colônia,Humor,"R$ 134,90"
-Creme Sorbet Desodorante Nutritivo Para o Corpo Tododia Manga Rosa e Água de Coco,Tododia,"R$ 65,90"
-Sabonete Em Barra Puro Vegetal Tododia Capim Limão e Hortelã,Tododia,"R$ 28,90"
-Essencial Exclusivo Deo Parfum Feminino,Essencial,"R$ 239,00"
-Protetor Facial Gel Creme FPS 60/FPUVA 20 Fotoequilíbrio,Fotoequilíbrio,"R$ 95,90"
-Refil Creme Desodorante Nutritivo para o Corpo Tododia Noz Pecã e Cacau,Tododia,"R$ 47,50"
-Natura Homem Verum Deo Parfum,Natura Homem,"R$ 187,90"
-Una Senses Deo Parfum ,Una,"R$ 269,00"
-Essencial Único Deo Parfum Feminino,Essencial,"R$ 288,00"
-Conjunto Todanoite Creme Noturno Chá de Camomila e Lavanda,Tododia,"R$ 113,40"
-Kit Kaiak Aero Desodorante Colônia Masculino,Kaiak,"R$ 311,80"
-Ekos Frescor Pitanga Desodorante Colônia Feminino,Ekos,"R$ 103,90"
-Biografia Inspire Desodorante Colônia Masculino,Biografia,"R$ 169,90"
-Sintonia Instinto Desodorante Colônia Masculino,Sintonia,"R$ 171,90"
-Natura Homem Verse Deo Parfum,Natura Homem,"R$ 187,90"
-Essencial Ato Deo Parfum Feminino ,Essencial,"R$ 239,00"
-Sr. Natura Desodorante Colônia,Sr. N,"R$ 124,90"
-Kriska Romance Desodorante Colônia Feminino,Kriska,"R$ 129,90"
-Batom CC Hidratante FPS 25,Una,"R$ 54,90"
-Sabonete em Barra Puro Vegetal Tododia Manga Rosa e Água De Coco,Tododia,"R$ 28,90"
-Conjunto Natura Tododia Sabonetes,Tododia,"R$ 144,50"
-Kaiak Urbe Desodorante Colônia Masculino,Kaiak,"R$ 155,90"
-Presente Natura Homem Dom,Natura Homem,"R$ 245,70"
-Presente Natura Kaiak Masculino,Kaiak,"R$ 236,20"
-Tododia Macadâmia Body Splash Desodorante Colônia Feminino,Tododia,"R$ 69,90"
-Tododia  Amora Vermelha e Jabuticaba Body Splash Desodorante Colônia Feminino ,Tododia,"R$ 69,90"
-Luna Coragem Desodorante Colônia ,Luna,"R$ 157,90"
-Biografia Assinatura Desodorante Colônia Masculino,Biografia,"R$ 169,90"
-Essencial Estilo Deo Parfum Feminino,Essencial,"R$ 239,00"
-Kit Desodorante Corporal Essencial Masculino Refil,Essencial,"R$ 103,10"
-Una Artisan Deo Parfum Feminino,Una,"R$ 269,00"
-Natura Homem Neo Deo Parfum,Natura Homem,"R$ 187,90"
-Luna Viva Desodorante Colônia,Luna,"R$ 157,90"
+Nome,Preço T,Preço D,Categoria
+Essencial Exclusivo Deo Parfum Masculino,"R$ 239,00","R$ 119,90",Essencial
+Kaiak Aventura Desodorante Colônia Masculino,"R$ 155,90","R$ 77,90",Kaiak
+Kaiak Pulso Masculino Desodorante Colônia,"R$ 155,90","R$ 77,90",Kaiak
+Meu Primeiro Humor Desodorante Colônia,"R$ 134,90","R$ 66,90",Humor
+Ekos Frescor Maracujá Desodorante Colônia Feminino,"R$ 103,90","R$ 51,95",Ekos
+Kaiak Desodorante Colônia Masculino,"R$ 155,90","R$ 77,90",Kaiak
+Natura Homem Desodorante Colônia Masculino,"R$ 169,90","R$ 84,90",Natura Homem
+Conjunto Sabonetes em Barra Tododia,"R$ 115,60","R$ 95,60",Tododia
+Luna Desodorante Colônia,"R$ 157,90","R$ 78,95",Luna
+Sabonete em Barra Puro Vegetal Tododia Macadâmia,"R$ 28,90","R$ 23,10",Tododia
+Kaiak Feminino Desodorante Colônia,"R$ 155,90","R$ 77,90",Kaiak
+Una Blush Deo Parfum,"R$ 269,00","R$ 179,90",Una
+Creme Noturno Para o Corpo Tododia Todanoite,"R$ 65,90","R$ 33,00",Tododia
+Mamãe e Bebê Água de Colônia,"R$ 94,90","R$ 47,50",Mamãe e Bebê
+Humor a Dois Desodorante Colônia,"R$ 134,90","R$ 67,50",Humor
+Kriska Desodorante Colônia,"R$ 129,90","R$ 64,90",Kriska
+Essencial Único Deo Parfum Masculino,"R$ 288,00","R$ 192,90",Essencial
+Sabonete em Barra Puro Vegetal Tododia Acerola e Hibisco,"R$ 28,90","R$ 23,10",Tododia
+Kaiak Oceano Desodorante Colônia Masculino,"R$ 155,90","R$ 77,95",Kaiak
+Refil Creme Desodorante Nutritivo Corporal Tododia Macadâmia,"R$ 47,50","R$ 28,50",Tododia
+Natura Homem Dom Deo Parfum,"R$ 187,90","R$ 112,90",Natura Homem
+Kriska Drama Desodorante Colônia,"R$ 129,90","R$ 70,90",Kriska
+Essencial Ato Deo Parfum Masculino ,"R$ 239,00","R$ 154,90",Essencial
+Natura Homem Essence Deo Parfum,"R$ 187,90","R$ 129,90",Natura Homem
+Refil Desodorante Corporal Biografia Masculino,"R$ 33,90","R$ 13,50",Biografia
+Refil Creme Noturno Para o Corpo Tododia Todanoite,"R$ 47,50","R$ 23,75",Tododia
+Kaiak Aventura Feminino Desodorante Colônia,"R$ 155,90","R$ 77,95",Kaiak
+Desodorante Antitranspirante em Creme Erva Doce,"R$ 27,90","R$ 13,95",Erva Doce
+Refil Creme Antissinais 60+ Dia,"R$ 108,90","R$ 54,45",Chronos
+Una Deo Parfum,"R$ 269,00","R$ 174,90",Una
+Refil Desodorante Corporal Kaiak Masculino,"R$ 33,90","R$ 16,95",Kaiak
+Refil Creme Desodorante Nutritivo para o Corpo Tododia Amora Vermelha e Jabuticaba,"R$ 47,50","R$ 28,50",Tododia
+Essencial Supreme Feminino Deo Parfum,"R$ 239,00","R$ 143,00",Essencial
+Tododia Manga Rosa e Água de Coco Body splash Desodorante Colônia,"R$ 69,90","R$ 34,90",Tododia
+Ilía Ser Deo Parfum,"R$ 159,90","R$ 103,90",Ilía
+Tododia  Tâmara e Canela Body Splash Desodorante Colônia Feminino,"R$ 69,90","R$ 34,95",Tododia
+Refil Gel Creme 45+ Dia,"R$ 108,90","R$ 54,45",Chronos
+Kaiak O2 Desodorante Colônia Masculino,"R$ 155,90","R$ 99,90",Kaiak
+Sabonete em Barra Puro Vegetal Tododia Algodão,"R$ 28,90","R$ 25,90",Tododia
+Natura Homem Tato Deo Parfum,"R$ 187,90","R$ 112,90",Natura Homem
+Sabonete em Barra Puro Vegetal Tododia Alecrim e Sálvia,"R$ 28,90","R$ 24,90",Tododia
+Desodorante Corporal Kaiak Masculino,"R$ 44,90","R$ 22,45",Kaiak
+Conjunto Desodorante Antitranspirante Roll-on Tododia Aclarar,"R$ 77,70","R$ 65,70",Tododia
+Presente Natura Tododia Cereja e Avelã,"R$ 163,30","R$ 109,90",Tododia
+Creme Sorbet Desodorante Nutritivo Para o Corpo Tododia Manga Rosa e Água de Coco,"R$ 65,90","R$ 35,70",Tododia
+Presente Natura Meu Primeiro Humor,"R$ 206,44","R$ 144,90",Humor
+Refil Creme Desodorante Nutritivo para o Corpo Tododia Tâmara e Canela,"R$ 47,50","R$ 28,50",Tododia
+Ekos Frescor Moça Desodorante Colônia,"R$ 103,90","R$ 46,90",Ekos
+Polpa Hidratante para as Mãos Ekos Castanha,"R$ 52,50","R$ 26,30",Ekos
+Ilía Completa Deo Parfum ,"R$ 159,90","R$ 79,90",Ilía
+Sabonete Líquido em Gel Tododia Tâmara e Canela,"R$ 41,90","R$ 21,00",Tododia
+Desodorante Corporal Natura Homem,"R$ 44,90","R$ 22,45",Natura Homem
+Natura Homem Verse Deo Parfum,"R$ 187,90","R$ 93,90",Natura Homem
+Esfoliante Antissinais Chronos,"R$ 70,90","R$ 35,45",Chronos
+Desodorante Corporal Masculino Kaiak Oceano,"R$ 44,90","R$ 22,45",Kaiak
+Paz e Humor Desodorante Colônia,"R$ 134,90","R$ 82,90",Humor
+Una Artisan Deo Parfum Feminino,"R$ 269,00","R$ 199,00",Una
+Natura Homem Emocion.e Deo Parfum ,"R$ 248,00","R$ 148,90",Natura Homem
+Óleo Corporal Sève Amêndoas Doces ,"R$ 99,90","R$ 59,90",Sève
+Essencial Único Deo Parfum Feminino,"R$ 288,00","R$ 192,90",Essencial
+Refil Óleo Desodorante Corporal Sève Amêndoas Doces,"R$ 86,90","R$ 44,90",Sève
+Coleção Natura Ekos Hidratantes Mãos,"R$ 142,00","R$ 95,90",Ekos
+Polpa Desodorante Hidratante Para o Corpo Ekos Tukumã,"R$ 83,50","R$ 41,80",Ekos
+Sabonete em Barra Puro Vegetal Cremoso Ekos,"R$ 35,90","R$ 28,70",Ekos
+Tododia  Amora Vermelha e Jabuticaba Body Splash Desodorante Colônia Feminino ,"R$ 69,90","R$ 48,90",Tododia
+Desodorante Antitranspirante Roll-on Tododia Macadâmia,"R$ 25,90","R$ 12,95",Tododia
+Desodorante Corporal Biografia Masculino,"R$ 44,90","R$ 22,45",Biografia
+Desodorante Antitranspirante em Creme Tododia Manga Rosa e Água de Coco,"R$ 27,90","R$ 13,95",Tododia
+Sr. Natura Desodorante Colônia,"R$ 124,90","R$ 89,90",Sr. N
+Desodorante Corporal Sintonia Masculino,"R$ 58,90","R$ 23,50",Sintonia
+Sintonia Instinto Desodorante Colônia Masculino,"R$ 171,90","R$ 85,90",Sintonia
+Desodorante Corporal Kaiak Feminino,"R$ 44,90","R$ 22,45",Kaiak
+Refil Creme Desodorante Nutritivo para o Corpo Tododia Algodão,"R$ 47,50","R$ 32,90",Tododia
+Creme Nutritivo para as Mãos Tododia Noz Pecã e Cacau FPS 20,"R$ 31,50","R$ 15,75",Tododia
+Kit Desodorante Corporal Essencial Masculino Refil,"R$ 103,10","R$ 58,90",Essencial
+Luna Radiante Desodorante Colônia,"R$ 157,90","R$ 102,50",Luna
+Natura Homem Elo Deo Parfum,"R$ 187,90","R$ 129,90",Natura Homem
+Creme Desodorante Nutritivo para o Corpo Tododia Noz Pecã e Cacau,"R$ 44,50","R$ 22,30",Tododia
+Refil Óleo Trifásico Desodorante Corporal Ekos Andiroba ,"R$ 65,90","R$ 33,00",Ekos
+Luna Absoluta Desodorante Colônia,"R$ 157,90","R$ 126,32",Luna
+Presente Natura Tododia Sabonetes em Barra Sortidos,"R$ 25,90","R$ 24,90",Tododia
+Sérum Intensivo para Bolsas e Olheiras Natura Chronos,"R$ 166,05","R$ 83,00",Chronos
+Refil Polpa Desodorante Hidratante Para o Corpo Andiroba Ekos,"R$ 62,50","R$ 37,90",Ekos
+Essencial Ato Deo Parfum Feminino ,"R$ 239,00","R$ 154,90",Essencial
+Sabonete em Barra Puro Vegetal Tododia Amora Vermelha e Jabuticaba,"R$ 28,90","R$ 24,50",Tododia
+Óleo Trifásico Desodorante Corporal Ekos Maracujá,"R$ 83,90","R$ 42,00",Ekos
+Polpa Hidratante para as Mãos Ekos Castanha,"R$ 35,50","R$ 17,75",Ekos
+Refil Creme Antissinais 60+ Noite,"R$ 108,90","R$ 54,45",Chronos
+Desodorante Antitranspirante Roll-On Natura Homem Sagaz,"R$ 25,90","R$ 12,95",Natura Homem
+Desodorante Antitranspirante Roll-on Tododia Sem Perfume,"R$ 29,90","R$ 14,95",Tododia
+Sérum Intensivo Multiclareador Chronos,"R$ 176,50","R$ 104,70",Chronos
+Presente Natura Una Artisan com Hidratante Corporal,"R$ 374,80","R$ 289,90",Una
+Kriska Romance Desodorante Colônia Feminino,"R$ 129,90","R$ 99,99",Kriska
+Presente Natura Humor Próprio Feminino,"R$ 214,70","R$ 134,90",Humor
+Humor On-line Desodorante Colônia Masculino,"R$ 134,90","R$ 67,45",Humor
+Conjunto Natura Tododia Sabonetes,"R$ 144,50","R$ 118,60",Tododia
+Desodorante Hidratante Corporal Essencial Feminino,"R$ 45,90","R$ 21,90",Essencial
+Super Sérum Redutor de Rugas Chronos,"R$ 223,00","R$ 133,00",Chronos
+Kit Kaiak Aero Desodorante Colônia Masculino,"R$ 311,80","R$ 187,00",Kaiak
+Creme Nutritivo para as Mãos Tododia Romã e Flor de Amora,"R$ 31,50","R$ 15,80",Tododia
+Conjunto Todanoite Creme Noturno Chá de Camomila e Lavanda,"R$ 113,40","R$ 69,90",Tododia
+Naturé Desenho nas Nuvens Água de Colônia,"R$ 87,90","R$ 49,90",Naturé
+Protetor Facial Gel Creme FPS 60/FPUVA 20 Fotoequilíbrio,"R$ 95,90","R$ 81,50",Fotoequilíbrio
+Refil Desodorante Corporal Luna,"R$ 33,90","R$ 15,50",Luna
+Biografia Encontros Desodorante Colônia Feminino,"R$ 169,90","R$ 109,90",Biografia
+Sorbet Desodorante Nutritivo Tododia Acerola e Hibisco,"R$ 65,90","R$ 39,50",Tododia
+Presente Natura Essencial Masculino,"R$ 354,70","R$ 289,90",Essencial
+Sabonete em Barra Puro Vegetal Tododia Manga Rosa e Água De Coco,"R$ 28,90","R$ 25,90",Tododia
+Kit Refil Creme Antissinais 60+ Dia Chronos ,"R$ 217,80","R$ 129,80",Chronos
+"Sabonete em Barra Puro Vegetal Cremoso e Esfoliante Ekos Tukumã 
+","R$ 33,90","R$ 27,10",Ekos
+Kaiak Oceano Desodorante Colônia Feminino,"R$ 155,90","R$ 77,95",Kaiak
+Refil Shampoo Mamãe e Bebê,"R$ 31,40","R$ 21,90",Mamãe e Bebê
+Sabonete em Barra Puro Vegetal Cremoso Ekos Andiroba,"R$ 33,90","R$ 29,90",Ekos
+Naturé Mistureba Sabonetes em Barra Sortidos,"R$ 37,90","R$ 31,90",Naturé
+Creme Desodorante Nutritivo Para o Corpo Tododia Algodão,"R$ 65,90","R$ 45,90",Tododia
+Sérum Intensivo Lifting & Firmeza Chronos,"R$ 176,50","R$ 103,90",Chronos
+Refil Desodorante Corporal Meu Primeiro Humor Feminino,"R$ 33,90","R$ 13,50",Humor
+Creme Desodorante Nutritivo para o Corpo Tododia Amora Vermelha e Jabuticaba,"R$ 65,90","R$ 46,10",Tododia
+Humor Transforma Desodorante Colônia,"R$ 139,90","R$ 69,90",Humor
+Presente Natura Essencial Exclusivo Masculino,"R$ 298,10","R$ 194,90",Essencial
+Néctar Hidratante Para as Mãos Ekos Maracujá,"R$ 52,50","R$ 26,30",Ekos
+Desodorante Antitranspirante  Roll-on Tododia Flor de Lis,"R$ 29,90","R$ 14,95",Tododia
+Sabonete Sortido Puro Vegetal,"R$ 31,30","R$ 25,00",Erva Doce
+Presente Natura Tododia Macadâmia,"R$ 164,70","R$ 109,90",Tododia
+Batom CC Hidratante FPS 25,"R$ 54,90","R$ 46,50",Una
+Natura Homem Cor.agio Deo Parfum,"R$ 248,00","R$ 173,50",Natura Homem
+Polpa Hidratante para as Mãos Ekos Ucuuba,"R$ 52,50","R$ 26,30",Ekos
+Presente Sabonete Ekos Maracujá,"R$ 28,90","R$ 26,90",Ekos
+Combo Mamãe e Bebê Banho de Carinho,"R$ 107,60","R$ 85,90",Mamãe e Bebê
+Sabonete Líquido em Gel Tododia Alecrim e Sálvia,"R$ 41,90","R$ 24,90",Tododia
+Ekos Frescor Castanha Desodorante Colônia Feminino,"R$ 103,90","R$ 61,90",Ekos
+Essencial Estilo Deo Parfum Feminino,"R$ 239,00","R$ 131,50",Essencial
+Luna Coragem Desodorante Colônia ,"R$ 157,90","R$ 89,90",Luna
+Refil Essencial Oud Deo Parfum Feminino,"R$ 186,00","R$ 111,90",Essencial
+Kit Águas Lírio Desodorante Colônia Feminino,"R$ 181,80","R$ 99,80",Águas
+Creme Desodorante Nutritivo Para o Corpo Tododia Macadâmia,"R$ 65,90","R$ 48,10",Tododia
+Presente Natura Essencial Feminino,"R$ 306,90","R$ 264,90",Essencial
+Sabonete em Barra Natura Homem,"R$ 29,90","R$ 26,91",Natura Homem
+Natura Homem Neo Deo Parfum,"R$ 187,90","R$ 112,90",Natura Homem
+Presente Natura Mamãe e Bebê,"R$ 165,10","R$ 109,90",Mamãe e Bebê
+Esfoliante para o Corpo Tododia Acerola e Hibisco,"R$ 41,90","R$ 23,10",Tododia
+Desodorante Antitranspirante em Creme Tododia Sem Perfume,"R$ 27,90","R$ 19,40",Tododia
+Presente Natura Kaiak Aventura Masculino Cuidados Pessoais,"R$ 270,70","R$ 164,90",Kaiak
+Luna Viva Desodorante Colônia,"R$ 157,90","R$ 109,90",Luna
