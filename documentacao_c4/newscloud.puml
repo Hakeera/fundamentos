@@ -6,11 +6,7 @@
 
 !include Boundary
 
-
-
-
 System(nc, "Sistema Newscloud")
-
 
 Container(coleta1, "Coleta 1", "Acessa HTML dos jornais e coleta links e metadados para inserir no Banco de Dados no formato de Json.")
 Container(coleta2, "Coleta 2", "Atualização", "Acessa link e metadados do Banco de Dados. Acessa HTML pelo link e coleta dados (corpo do texto) de cada notícia. Atualizando o Banco de Dados")

@@ -1,1 +1,70 @@
-{"_default": {"1": {"jornal": "La Nacion", "titulo": "Paraguay \u201caboga por un planeta verde, solidario y pr\u00f3spero\u201d, dice Pe\u00f1a  ", "categoria": "politica", "link": "https://www.lanacion.com.py/category/politica/2023/12/01/paraguay-aboga-por-un-planeta-verde-solidario-y-prospero-dice-pena/", "data": ["2023", "12", "01"]}, "2": {"jornal": "La Nacion", "titulo": "Titular del MEC rechaza acusaciones sobre supuesto blanqueo en caso Rivas", "categoria": "politica", "link": "https://www.lanacion.com.py/category/politica/2023/12/01/titular-del-mec-rechaza-acusaciones-sobre-supuesto-blanqueo-en-caso-rivas/", "data": ["2023", "12", "01"]}, "3": {"jornal": "La Nacion", "titulo": "Domingo La\u00edno lamenta situaci\u00f3n del PLRA: \u201cMe lastima mucho la situaci\u00f3n del partido\u201d", "categoria": "politica", "link": "https://www.lanacion.com.py/category/politica/2023/12/01/domingo-laino-lamenta-situacion-del-plra-me-lastima-mucho-la-situacion-del-partido/", "data": ["2023", "12", "01"]}, "4": {"jornal": "La Nacion", "titulo": "Buzarquis defiende institucionalidad del PLRA ante supuesta injerencia del cartismo ", "categoria": "politica", "link": "https://www.lanacion.com.py/category/politica/2023/12/01/buzarquis-defiende-institucionalidad-del-plra-ante-supuesta-injerencia-del-cartismo/", "data": ["2023", "12", "01"]}, "5": {"jornal": "La Nacion", "titulo": "Interpol emiti\u00f3 alerta azul para Marset a pedido de Bolivia", "categoria": "politica", "link": "https://www.lanacion.com.py/category/politica/2023/12/01/interpol-emitio-alerta-azul-para-marset-a-pedido-de-bolivia/", "data": ["2023", "12", "01"]}, "6": {"jornal": "La Nacion", "titulo": "Sindicatos de la Fiscal\u00eda de CDE rechazan implicancia de funcionarios en actos il\u00edcitos", "categoria": "politica", "link": "https://www.lanacion.com.py/category/politica/2023/11/30/sindicatos-de-la-fiscalia-de-cde-rechazan-implicancia-de-funcionarios-en-actos-ilicitos/", "data": ["2023", "11", "30"]}}}
+{
+    "_default": {
+        "1": {
+            "jornal": "La Nacion",
+            "titulo": "Peña participó de encuentro con 5.000 líderes educativos",
+            "categoria": "politica",
+            "link": "https://www.lanacion.com.py/category/politica/2023/12/05/pena-participo-de-encuentro-con-5000-lideres-educativos/",
+            "data": [
+                "2023",
+                "12",
+                "05"
+            ]
+        },
+        "2": {
+            "jornal": "La Nacion",
+            "titulo": "Superintendencia de Jubilaciones: las cajas tendrán administración independiente, aclara procurador",
+            "categoria": "politica",
+            "link": "https://www.lanacion.com.py/category/politica/2023/12/05/superintendencia-de-jubilaciones-las-cajas-tendran-administracion-independiente-aclara-procurador/",
+            "data": [
+                "2023",
+                "12",
+                "05"
+            ]
+        },
+        "3": {
+            "jornal": "La Nacion",
+            "titulo": "ANR Radio inaugura su señal online",
+            "categoria": "politica",
+            "link": "https://www.lanacion.com.py/category/politica/2023/12/05/anr-radio-inaugura-su-senal-online/",
+            "data": [
+                "2023",
+                "12",
+                "05"
+            ]
+        },
+        "4": {
+            "jornal": "La Nacion",
+            "titulo": "Designan a dos peritos para evaluar evidencias incautadas de la celda de Carmen Villalba",
+            "categoria": "politica",
+            "link": "https://www.lanacion.com.py/category/politica/2023/12/05/designan-a-dos-peritos-para-evaluar-evidencias-incautadas-de-la-celda-de-carmen-villalba/",
+            "data": [
+                "2023",
+                "12",
+                "05"
+            ]
+        },
+        "5": {
+            "jornal": "La Nacion",
+            "titulo": "Poder Ejecutivo evaluó el año con los gobernadores",
+            "categoria": "politica",
+            "link": "https://www.lanacion.com.py/category/politica/2023/12/05/poder-ejecutivo-evaluo-el-ano-con-los-gobernadores/",
+            "data": [
+                "2023",
+                "12",
+                "05"
+            ]
+        },
+        "6": {
+            "jornal": "La Nacion",
+            "titulo": "Senador defiende proyecto sobre pensiones: “No se puede seguir con un modelo de anarquía”",
+            "categoria": "politica",
+            "link": "https://www.lanacion.com.py/category/politica/2023/12/05/senador-defiende-proyecto-sobre-pensiones-no-se-puede-seguir-con-un-modelo-de-anarquia/",
+            "data": [
+                "2023",
+                "12",
+                "05"
+            ]
+        }
+    }
+}

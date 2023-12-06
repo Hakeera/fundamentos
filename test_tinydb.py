@@ -1,9 +1,12 @@
 # Importar bibliotecas
 from bs4 import BeautifulSoup
 import requests
-from tinydb import TinyDB
+from tinydb import TinyDB, Query
 from dataclasses import dataclass, asdict
 from pathlib import Path
+from dotenv import load_dotenv
+import json
+import os
 
 @dataclass
 class Jornal:
@@ -18,9 +21,7 @@ class Jornal:
 
 db_path = Path(__file__).parent/'db.json'
 db = TinyDB(db_path)
-
-
-
+db = TinyDB('db.json', indent=4, ensure_ascii=False)
 
 # Criando listas vazias para armazenar os dados
 def acessar_pagina(url):
@@ -44,12 +45,28 @@ def extrair_infos(url):
         # Categoria
         categoria_p = href.split('/')
         categoria = categoria_p[1]
+        # Banco de dados
         j = Jornal(jornal, titulo, categoria, link, data)
         db.insert(j.as_dict())
 
+def inserir_bd(titulo, link):
+    env_dir = load_dotenv('.env_dir')
+    DIR_DADOS_FINAL = os.getenv('DIR_DADOS_FINAL')
+    criar_dir = os.makedirs(DIR_DADOS_FINAL, exist_ok= True)
+    print(DIR_DADOS_FINAL)
+    bd = TinyDB(f'(DIR_DADOS_FINAL)/coleta.json', indent=4, ensure_ascii=False)
+    buscar = Querry()
+    verificar_bd = bd.contains(buscar.link == link)
+    if not verificar_bd:
+        bd.insert({
+            "Título": titulo,
+            "Link": link
+        })        
+
 def main():
-    url = f'https://www.lanacion.com.py/category/politica'
-    extrair_infos(url)
+    #url = f'https://www.lanacion.com.py/category/politica'
+    #extrair_infos(url)
+    inserir_bd()
 
 if __name__ == "__main__":
     main()
