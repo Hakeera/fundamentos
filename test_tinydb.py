@@ -1,65 +1,72 @@
-from tinydb import TinyDB, Query
-from dotenv import load_dotenv
+# Importar bibliotecas
 from bs4 import BeautifulSoup
 import requests
+from tinydb import TinyDB, Query
+from dataclasses import dataclass, asdict
+from pathlib import Path
+from dotenv import load_dotenv
+import json
 import os
-import re
+
+@dataclass
+class Jornal:
+        jornal: str
+        titulo: str
+        categoria: str
+        link: str
+        data: str
+        
+        def as_dict(self):
+            return asdict(self)
 
 
-# Listas para armazenar informações extraídas
-titulo_lista = []
-link_lista = []
-data_lista = []
-horario_lista = []
-numero_da_nota_lista = []
-categoria_lista = []
+db_path = Path(__file__).parent/'db.json'
+db = TinyDB(db_path)
+db = TinyDB('db.json', indent=4, ensure_ascii=False)
 
-def extrair_infos():
-    # Ao final da extração dos dados as variáveis devem ser atualizadas chamando a função da inserção e atribuindo os parâmetros necessários do json.
-        inserir_bd()
+# Criando listas vazias para armazenar os dados
+def acessar_pagina(url):
+    page = requests.get(url)
+    soup = BeautifulSoup(page.text, 'html.parser')
+    return soup
 
-# Função para criar o ambiente virtual
-def criar_ambiente_virtual():
+def extrair_infos(url):
+    jornal = "La Nacion"
+    html = acessar_pagina(url)
+    divs = html.find_all('div', 'clnc ws-ln')
+    for div in divs:
+        # Titulos
+        titulo = div.a.text
+        # Links
+        href = div.a['href']
+        link = f'https://www.lanacion.com.py/category{href}'
+        # Datas
+        data_p = href.split('/')
+        data = data_p[2:5]
+        # Categoria
+        categoria_p = href.split('/')
+        categoria = categoria_p[1]
+        # Banco de dados
+        j = Jornal(jornal, titulo, categoria, link, data)
+        db.insert(j.as_dict())
+
+def inserir_bd(titulo, link):
     env_dir = load_dotenv('.env_dir')
     DIR_DADOS_FINAL = os.getenv('DIR_DADOS_FINAL')
+    criar_dir = os.makedirs(DIR_DADOS_FINAL, exist_ok= True)
     print(DIR_DADOS_FINAL)
-
-    # Verificar se a variável de ambiente está configurada
-    if DIR_DADOS_FINAL is None:
-        print("A variável de ambiente DIR_DADOS_FINAL não está configurada.")
-        return
-    os.makedirs(DIR_DADOS_FINAL, exist_ok=True)
-    print(f"Ambiente virtual criado em {DIR_DADOS_FINAL}")
-    
-def inserir_bd(titulo, link, data, horario, numero_da_nota, paragrafos_lista, categorias):
-    load_dotenv('.env_dir')
-    DIR_DADOS_FINAL = os.getenv('DIR_DADOS_FINAL')
-
-    # Criação ou abertura do arquivo de base de dados
-    bd = TinyDB(f'{DIR_DADOS_FINAL}/coleta.json', indent=4, ensure_ascii=False)
-    buscar = Query()
+    bd = TinyDB(f'(DIR_DADOS_FINAL)/coleta.json', indent=4, ensure_ascii=False)
+    buscar = Querry()
     verificar_bd = bd.contains(buscar.link == link)
-
-    # Verifica se o link já está na base de dados
     if not verificar_bd:
-        # Insere as informações na base de dados
         bd.insert({
-            'Título': titulo,
-            'Link': link,
-            'Data': data,
-            'Horário': horario,
-            'Número da Nota': numero_da_nota,
-            'Parágrafos': paragrafos_lista,            
-            'Categorias': categorias
-
-        })
-        print('Informações inseridas com sucesso!')
-    else:
-        print('As informações já estão na base!')
+            "Título": titulo,
+            "Link": link
+        })        
 
 def main():
-    criar_ambiente_virtual()
-    extrair_infos()
-
-if __name__ == '__main__':
+    #url = f'https://www.lanacion.com.py/category/politica'
+    #extrair_infos(url)
+    inserir_bd()
+if __name__ == "__main__":
     main()
