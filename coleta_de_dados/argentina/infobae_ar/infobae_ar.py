@@ -41,7 +41,7 @@ def main():
     
     extrair_infos(url)
     
-    #print("Links:\n", links_list, "\n \nTítulos:\n", titulo_list, "\n \nSubtitulos:\n")
+    print("Links:\n", links_list, "\n \nTítulos:\n", titulo_list, "\n \nSubtitulos:\n")
     
 if __name__ == "__main__": 
     main()

@@ -56,7 +56,7 @@ def inserir_bd(titulo, link):
     criar_dir = os.makedirs(DIR_DADOS_FINAL, exist_ok= True)
     print(DIR_DADOS_FINAL)
     bd = TinyDB(f'(DIR_DADOS_FINAL)/coleta.json', indent=4, ensure_ascii=False)
-    buscar = Querry()
+    buscar = Query()
     verificar_bd = bd.contains(buscar.link == link)
     if not verificar_bd:
         bd.insert({
@@ -65,8 +65,8 @@ def inserir_bd(titulo, link):
         })        
 
 def main():
-    #url = f'https://www.lanacion.com.py/category/politica'
-    #extrair_infos(url)
+    url = f'https://www.lanacion.com.py/category/politica'
+    extrair_infos(url)
     inserir_bd()
 if __name__ == "__main__":
     main()
