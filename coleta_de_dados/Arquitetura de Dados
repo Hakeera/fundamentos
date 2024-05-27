@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-21T15:53:08.826Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="wgIqSB8qTFyqBClFJYxz" version="24.4.4" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2024-05-27T17:03:52.810Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="7uDFkdxAT87IVFyXCcz9" version="24.4.4" type="github" pages="4">
   <diagram id="kVnRtPjmJakSl7aa5ygD" name="Concptual Model">
     <mxGraphModel dx="1690" dy="964" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -317,60 +317,88 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DDP_NmpFpKBVOf1bf6hP-1" value="&lt;b&gt;JSON&lt;/b&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#6BFF08;" parent="1" vertex="1">
-          <mxGeometry x="220" y="170" width="80" height="80" as="geometry" />
+          <mxGeometry x="201" y="170" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="DDP_NmpFpKBVOf1bf6hP-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="DDP_NmpFpKBVOf1bf6hP-4" target="DDP_NmpFpKBVOf1bf6hP-17" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DDP_NmpFpKBVOf1bf6hP-4" value="&lt;b&gt;Parquet&lt;/b&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#6BFF08;" parent="1" vertex="1">
-          <mxGeometry x="430" y="170" width="80" height="80" as="geometry" />
+          <mxGeometry x="508.5" y="170" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="38LRHMkB8WwS1LcqiPTM-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DDP_NmpFpKBVOf1bf6hP-7" target="38LRHMkB8WwS1LcqiPTM-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="451" y="120" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="DDP_NmpFpKBVOf1bf6hP-7" value="PySpark" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="330" y="170" width="60" height="30" as="geometry" />
+          <mxGeometry x="376" y="170" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DDP_NmpFpKBVOf1bf6hP-10" value="Inserir DB" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="120" y="170" width="60" height="30" as="geometry" />
+          <mxGeometry x="105" y="170" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DDP_NmpFpKBVOf1bf6hP-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="DDP_NmpFpKBVOf1bf6hP-11" target="DDP_NmpFpKBVOf1bf6hP-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DDP_NmpFpKBVOf1bf6hP-11" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.settings;" parent="1" vertex="1">
-          <mxGeometry x="30" y="175" width="70" height="70" as="geometry" />
+          <mxGeometry x="15" y="175" width="70" height="70" as="geometry" />
         </mxCell>
         <mxCell id="DDP_NmpFpKBVOf1bf6hP-14" value="Coleta" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="30" y="250" width="60" height="30" as="geometry" />
+          <mxGeometry x="15" y="250" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="38LRHMkB8WwS1LcqiPTM-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="DDP_NmpFpKBVOf1bf6hP-15" target="38LRHMkB8WwS1LcqiPTM-1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DDP_NmpFpKBVOf1bf6hP-15" value="Bronze (Raw Data)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="225" y="260" width="70" height="40" as="geometry" />
+          <mxGeometry x="206" y="250" width="70" height="40" as="geometry" />
         </mxCell>
         <mxCell id="DDP_NmpFpKBVOf1bf6hP-16" value="Silver &lt;br&gt;(Processed Data)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="412.5" y="260" width="115" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="DDP_NmpFpKBVOf1bf6hP-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="DDP_NmpFpKBVOf1bf6hP-17" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="750" y="210" as="targetPoint" />
-          </mxGeometry>
+          <mxGeometry x="491" y="260" width="115" height="40" as="geometry" />
         </mxCell>
         <mxCell id="DDP_NmpFpKBVOf1bf6hP-17" value="&lt;b&gt;Parquet&lt;/b&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#6BFF08;" parent="1" vertex="1">
-          <mxGeometry x="630" y="170" width="80" height="80" as="geometry" />
+          <mxGeometry x="833" y="170" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="DDP_NmpFpKBVOf1bf6hP-18" value="Golden&lt;br&gt;(Curated Data)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="617.5" y="260" width="105" height="40" as="geometry" />
+          <mxGeometry x="820" y="260" width="105" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="DDP_NmpFpKBVOf1bf6hP-20" value="DeltaLake&lt;div&gt;ACID&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="537.5" y="170" width="60" height="30" as="geometry" />
+        <mxCell id="DDP_NmpFpKBVOf1bf6hP-20" value="DeltaLake/Hudi&lt;div&gt;&lt;div&gt;ACID&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="653.75" y="132.5" width="102.5" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="DDP_NmpFpKBVOf1bf6hP-23" value="ETL&lt;div&gt;Indexação&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="537.5" y="220" width="60" height="30" as="geometry" />
+        <mxCell id="38LRHMkB8WwS1LcqiPTM-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DDP_NmpFpKBVOf1bf6hP-23" target="38LRHMkB8WwS1LcqiPTM-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="668.5" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DDP_NmpFpKBVOf1bf6hP-23" value="&lt;div&gt;Indexação&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="676.25" y="222.5" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DDP_NmpFpKBVOf1bf6hP-24" value="Transformação" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="440" y="140" width="60" height="30" as="geometry" />
+          <mxGeometry x="518.5" y="140" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DDP_NmpFpKBVOf1bf6hP-25" value="Ingestão" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="230" y="140" width="60" height="30" as="geometry" />
+          <mxGeometry x="211" y="130" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DDP_NmpFpKBVOf1bf6hP-26" value="Consulta" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="640" y="140" width="60" height="30" as="geometry" />
+          <mxGeometry x="842.5" y="140" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="38LRHMkB8WwS1LcqiPTM-1" value="Diretórios separados por Projetos, Países e Fonte, sendo acessados a partir de variáveis de ambiente.&lt;br&gt;Arquivos Json separados por meses." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="148.5" y="325" width="185" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="38LRHMkB8WwS1LcqiPTM-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="38LRHMkB8WwS1LcqiPTM-3" target="38LRHMkB8WwS1LcqiPTM-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="451" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="38LRHMkB8WwS1LcqiPTM-3" value="&lt;div&gt;ETL&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="376" y="215" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="38LRHMkB8WwS1LcqiPTM-6" value="Transformação de registros vazios em Nulos.&lt;br&gt;Definição de tipos de acordo com as chaves (Array, String, Date)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="311" y="400" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="38LRHMkB8WwS1LcqiPTM-8" value="Converter os arquivos em parquet a partir de um dataframe tabular&amp;nbsp; aplicando ETL" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="331" y="45" width="150" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="38LRHMkB8WwS1LcqiPTM-10" value="Colunas X Texto Completo&lt;br&gt;Delta X Elastic Search" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="630" y="332.5" width="152.5" height="75" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
