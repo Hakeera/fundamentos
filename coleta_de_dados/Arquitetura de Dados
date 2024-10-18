@@ -699,6 +699,12 @@
         <mxCell id="MtK1Zh2BaY8m0CsNbA-o-13" value="Data Criação" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="MtK1Zh2BaY8m0CsNbA-o-6">
           <mxGeometry y="120" width="110" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="MtK1Zh2BaY8m0CsNbA-o-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MtK1Zh2BaY8m0CsNbA-o-14" target="KbrY0x64HBqcB4IUlzTR-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MtK1Zh2BaY8m0CsNbA-o-14" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;atualizar_envs.py&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;fillColor=#FFCCFF;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="40" y="230" width="170" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
